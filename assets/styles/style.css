@@ -1,0 +1,139 @@
+.main-header {
+    background-color: rgb(128, 0, 128);
+    color: white;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    margin-bottom: 5px;
+}
+
+.main-header .auth-link a {
+    color: #ffffff;
+}
+
+.navigation-bg.force-absolute {
+    position: absolute !important;
+    width: 100%;
+    z-index: 100;
+}
+
+.navigation-bg {
+    background-color: rgba(128, 0, 128, 0.897);
+}
+
+.navigation-bg ul li a {
+    color: #ffffff;
+}
+
+.navigation-bg ul li a:hover {
+    text-decoration: none;
+}
+
+.navigation-bg ul.menu li:hover>ul {
+    padding-left: 0;
+}
+
+.page-title {
+    background-image: url(../images/slider-bg-w.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    text-align: center;
+}
+
+.page-title h1 {
+    padding-top: 1.2em;
+    font: bold 40px/60px "Raleway";
+    color: #ffffff;
+    background-color: rgba(167, 27, 160, 0.523);
+    width: 100%;
+    margin-bottom: 0;
+}
+
+.page-title .breadcrumb {
+    padding-bottom: 2em;
+    text-align: center;
+    background-color: rgba(167, 27, 160, 0.523) !important;
+    width: 100%;
+    margin: 0;
+}
+
+.page-title .breadcrumb li, .page-title .breadcrumb li a {
+    color: #d6d6d6;
+}
+
+.page-title .breadcrumb li.active {
+    color: #bdbcbc !important;
+}
+
+.page-title .breadcrumb li:last-child::after {
+    content: "" !important;
+}
+
+.page-title .breadcrumb li::after {
+    content: "›";
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.breadcrumb span {
+    color: #FFFFFF !important;
+}
+
+.breadcrumb>.active {
+    color: #07f186 !important;
+    font-weight: 500;
+}
+
+.breadcrumb {
+    padding: 0;
+    color: #FFFFFF !important;
+    font-size: 14px;
+}
+
+.sidebar, .main-content {
+    padding-top: 8px;
+}
+
+.main-content>.container {
+    background-color: #ffffff;
+}
+
+.main-content .social-icon {
+    width: 64px;
+    height: 64px;
+    font-size: 32px;
+    border-radius: 25%;
+    text-decoration: none;
+}
+
+.main-content .social-icon.facebook {
+    color: #3B5998;
+}
+
+.main-content .social-icon.twitter {
+    color: #1DA1F2;
+}
+
+.main-content .social-icon.googleplus {
+    color: #DD4B39;
+}
+
+.main-content .social-icon.youtube {
+    color: #C4302B;
+}
+
+.main-content hr.sm {
+    display: inline-block;
+    margin: 0 0 15px 0;
+    width: 80px;
+    height: 2px;
+}
+
+.footer {
+    background-color: rgb(49, 49, 49);
+    color: #d6d6d6;
+    padding: 15px 0 15px;
+    background: url(../images/foot_patt.png) repeat center top scroll;
+    background-color: #3e4043;
+    background-size: auto;
+}

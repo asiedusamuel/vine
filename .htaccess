@@ -1,0 +1,10 @@
+Options +FollowSymLinks
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}\.php -f
+RewriteRule ^(.*)$ $1.php
+RewriteRule ^event/([a-zA-Z0-9\-_]+)/(.*)/$ index.php?pageID=event&eventID=$2 [QSA]
+RewriteRule ^blog/([a-zA-Z0-9\-_]+)/(.*)/$ index.php?pageID=blog&blogID=$2 [QSA]
+RewriteRule ^videos/([a-zA-Z0-9\-_=]+)/$ index.php?pageID=videos&catID=$1 [QSA]
+RewriteRule ^store/([a-zA-Z0-9\-_=]+)/$ index.php?pageID=store&catID=$1 [QSA]
+RewriteRule ^(.*)/$ index.php?pageID=$1 [QSA]
